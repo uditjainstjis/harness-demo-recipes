@@ -1,0 +1,226 @@
+[
+  {
+    "slug": "pancakes",
+    "title": "Pancakes",
+    "tags": ["breakfast", "vegetarian"],
+    "servings": 4,
+    "prep": 10,
+    "cook": 15,
+    "ingredients": [
+      { "name": "flour", "qty": 200, "unit": "g" },
+      { "name": "milk", "qty": 300, "unit": "ml" },
+      { "name": "eggs", "qty": 2, "unit": "" },
+      { "name": "sugar", "qty": 1, "unit": "tbsp" },
+      { "name": "salt", "qty": 0.5, "unit": "tsp" },
+      { "name": "butter", "qty": 30, "unit": "g" }
+    ],
+    "steps": [
+      "Whisk the flour, sugar and salt together.",
+      "Beat in the eggs and milk until smooth.",
+      "Melt a little butter in a pan and cook ladlefuls of batter for about a minute each side."
+    ]
+  },
+  {
+    "slug": "pad-thai",
+    "title": "Pad Thai!",
+    "tags": ["dinner", "noodles"],
+    "servings": 2,
+    "prep": 20,
+    "cook": 10,
+    "ingredients": [
+      { "name": "rice noodles", "qty": 200, "unit": "g" },
+      { "name": "firm tofu", "qty": 150, "unit": "g" },
+      { "name": "eggs", "qty": 2, "unit": "" },
+      { "name": "roasted peanuts", "qty": 40, "unit": "g" },
+      { "name": "bean sprouts", "qty": 100, "unit": "g" },
+      { "name": "soy sauce", "qty": 2, "unit": "tbsp" },
+      { "name": "lime", "qty": 1, "unit": "" }
+    ],
+    "steps": [
+      "Soak the noodles in hot water until soft, then drain.",
+      "Fry the tofu until golden, push aside and scramble the eggs.",
+      "Add the noodles, soy sauce and bean sprouts and toss for two minutes.",
+      "Serve topped with peanuts and lime."
+    ]
+  },
+  {
+    "slug": "creme-brulee",
+    "title": "Crème Brûlée",
+    "tags": ["dessert"],
+    "servings": 4,
+    "prep": 20,
+    "cook": 40,
+    "ingredients": [
+      { "name": "double cream", "qty": 500, "unit": "ml" },
+      { "name": "egg yolks", "qty": 5, "unit": "" },
+      { "name": "sugar", "qty": 100, "unit": "g" },
+      { "name": "vanilla extract", "qty": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Heat the cream with the vanilla until steaming.",
+      "Whisk the yolks with half the sugar, then pour in the cream.",
+      "Bake in ramekins in a water bath at 150°C for 40 minutes.",
+      "Chill, sprinkle with the remaining sugar and caramelise."
+    ]
+  },
+  {
+    "slug": "lentil-soup",
+    "title": "Lentil Soup",
+    "tags": ["vegan", "soup", "dinner"],
+    "servings": 6,
+    "prep": 15,
+    "cook": 35,
+    "ingredients": [
+      { "name": "red lentils", "qty": 300, "unit": "g" },
+      { "name": "onion", "qty": 1, "unit": "" },
+      { "name": "carrots", "qty": 2, "unit": "" },
+      { "name": "vegetable stock", "qty": 1.5, "unit": "l" },
+      { "name": "ground cumin", "qty": 1, "unit": "tsp" },
+      { "name": "olive oil", "qty": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Soften the onion and carrots in the oil.",
+      "Add the cumin, lentils and stock and simmer for 30 minutes.",
+      "Blend until smooth and season."
+    ]
+  },
+  {
+    "slug": "chicken-tikka-curry",
+    "title": "Chicken Tikka Curry",
+    "tags": ["dinner", "spicy"],
+    "servings": 4,
+    "prep": 25,
+    "cook": 35,
+    "ingredients": [
+      { "name": "chicken thighs", "qty": 600, "unit": "g" },
+      { "name": "yoghurt", "qty": 150, "unit": "ml" },
+      { "name": "tikka paste", "qty": 3, "unit": "tbsp" },
+      { "name": "chopped tomatoes", "qty": 400, "unit": "g" },
+      { "name": "single cream", "qty": 100, "unit": "ml" },
+      { "name": "onion", "qty": 1, "unit": "" }
+    ],
+    "steps": [
+      "Marinate the chicken in the yoghurt and half the tikka paste.",
+      "Fry the onion with the rest of the paste, add the tomatoes and simmer.",
+      "Grill the chicken, add it to the sauce and stir in the cream."
+    ]
+  },
+  {
+    "slug": "banana-bread",
+    "title": "Banana Bread",
+    "tags": ["baking", "vegetarian"],
+    "servings": 8,
+    "prep": 30,
+    "cook": 60,
+    "ingredients": [
+      { "name": "ripe bananas", "qty": 3, "unit": "" },
+      { "name": "flour", "qty": 250, "unit": "g" },
+      { "name": "butter", "qty": 100, "unit": "g" },
+      { "name": "sugar", "qty": 150, "unit": "g" },
+      { "name": "eggs", "qty": 2, "unit": "" },
+      { "name": "baking soda", "qty": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Mash the bananas and beat in the melted butter, sugar and eggs.",
+      "Fold in the flour and baking soda.",
+      "Bake in a loaf tin at 175°C for an hour."
+    ]
+  },
+  {
+    "slug": "slow-beef-stew",
+    "title": "Slow Beef Stew",
+    "tags": ["dinner"],
+    "servings": 6,
+    "prep": 20,
+    "cook": 150,
+    "ingredients": [
+      { "name": "beef chuck", "qty": 1, "unit": "kg" },
+      { "name": "carrots", "qty": 3, "unit": "" },
+      { "name": "potatoes", "qty": 500, "unit": "g" },
+      { "name": "beef stock", "qty": 750, "unit": "ml" },
+      { "name": "tomato paste", "qty": 2, "unit": "tbsp" },
+      { "name": "onion", "qty": 2, "unit": "" }
+    ],
+    "steps": [
+      "Brown the beef in batches.",
+      "Add the vegetables, tomato paste and stock.",
+      "Cover and simmer gently for two and a half hours."
+    ]
+  },
+  {
+    "slug": "greek-salad",
+    "title": "Greek Salad",
+    "tags": ["vegetarian", "salad", "quick"],
+    "servings": 2,
+    "prep": 10,
+    "cook": 0,
+    "ingredients": [
+      { "name": "tomatoes", "qty": 3, "unit": "" },
+      { "name": "cucumber", "qty": 1, "unit": "" },
+      { "name": "feta", "qty": 200, "unit": "g" },
+      { "name": "black olives", "qty": 50, "unit": "g" },
+      { "name": "olive oil", "qty": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Chop the tomatoes and cucumber.",
+      "Top with the feta and olives and drizzle with oil."
+    ]
+  },
+  {
+    "slug": "tomato-pasta",
+    "title": "Tomato Pasta",
+    "tags": ["vegetarian", "dinner", "quick"],
+    "servings": 2,
+    "prep": 5,
+    "cook": 15,
+    "ingredients": [
+      { "name": "spaghetti", "qty": 200, "unit": "g" },
+      { "name": "chopped tomatoes", "qty": 400, "unit": "g" },
+      { "name": "garlic cloves", "qty": 2, "unit": "" },
+      { "name": "olive oil", "qty": 1, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Cook the spaghetti.",
+      "Fry the garlic in the oil, add the tomatoes and simmer for 10 minutes.",
+      "Toss the pasta through the sauce."
+    ]
+  },
+  {
+    "slug": "overnight-oats",
+    "title": "Overnight Oats",
+    "tags": ["breakfast", "vegan", "quick"],
+    "servings": 1,
+    "prep": 5,
+    "cook": 0,
+    "ingredients": [
+      { "name": "rolled oats", "qty": 50, "unit": "g" },
+      { "name": "oat milk", "qty": 150, "unit": "ml" },
+      { "name": "chia seeds", "qty": 1, "unit": "tbsp" },
+      { "name": "maple syrup", "qty": 1, "unit": "tsp" }
+    ],
+    "steps": [
+      "Stir everything together in a jar.",
+      "Refrigerate overnight."
+    ]
+  },
+  {
+    "slug": "simple-white-bread",
+    "title": "Simple White Bread",
+    "tags": ["baking", "vegan"],
+    "servings": 10,
+    "prep": 20,
+    "cook": 35,
+    "ingredients": [
+      { "name": "flour", "qty": 1, "unit": "kg" },
+      { "name": "water", "qty": 600, "unit": "ml" },
+      { "name": "dried yeast", "qty": 7, "unit": "g" },
+      { "name": "salt", "qty": 2, "unit": "tsp" },
+      { "name": "olive oil", "qty": 2, "unit": "tbsp" }
+    ],
+    "steps": [
+      "Mix everything into a dough and knead for 10 minutes.",
+      "Leave to rise until doubled, shape, and rise again.",
+      "Bake at 220°C for 35 minutes."
+    ]
+  }
+]
