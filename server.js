@@ -103,6 +103,9 @@ function handle(req, res) {
   const match = pathname.match(/^\/recipes\/([^/]+)$/);
   if (match) {
     const recipe = findBySlug(decodeURIComponent(match[1]));
+    if (!recipe) {
+      return send(res, 404, layout('Not found', '<h1>Page not found</h1>'));
+    }
     return send(res, 200, recipePage(recipe, searchParams));
   }
   return send(res, 404, layout('Not found', '<h1>Page not found</h1>'));
