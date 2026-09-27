@@ -36,7 +36,15 @@ function recipeList(recipes) {
 }
 
 function homePage(params) {
-  const recipes = sortRecipes(getAll(), params.get('sort') || 'title');
+  let recipes = getAll();
+  const maxTimeParam = params.get('max_time');
+  if (maxTimeParam !== null) {
+    const maxTime = Number(maxTimeParam);
+    if (!isNaN(maxTime) && maxTime >= 0) {
+      recipes = recipes.filter(recipe => totalTime(recipe) <= maxTime);
+    }
+  }
+  recipes = sortRecipes(recipes, params.get('sort') || 'title');
   return layout(
     'All recipes',
     `<h1>All recipes</h1>
