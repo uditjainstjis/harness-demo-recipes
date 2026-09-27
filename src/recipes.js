@@ -22,8 +22,10 @@ function search(query) {
 
 /** Sort by "title" (default) or "time" (total time). Returns a new array. */
 function sortRecipes(list, key = 'title') {
-  const value = (recipe) => (key === 'time' ? totalTime(recipe) : recipe.title);
-  return list.slice().sort((a, b) => String(value(a)).localeCompare(String(value(b))));
+  if (key === 'time') {
+    return list.slice().sort((a, b) => totalTime(a) - totalTime(b));
+  }
+  return list.slice().sort((a, b) => String(a.title).localeCompare(String(b.title)));
 }
 
 module.exports = { getAll, findBySlug, totalTime, search, sortRecipes };
