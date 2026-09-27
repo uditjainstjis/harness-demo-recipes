@@ -27,7 +27,7 @@ function recipeList(recipes) {
   if (recipes.length === 0) return '<p>No recipes found.</p>';
   const items = recipes.map(
     (recipe) => `<li class="recipe">
-      <a class="recipe-title" href="/recipes/${slugify(recipe.title)}">${escapeHtml(recipe.title)}</a>
+      <a class="recipe-title" href="/recipes/${recipe.slug}">${escapeHtml(recipe.title)}</a>
       <span class="time">${formatDuration(totalTime(recipe))}</span>
       <span class="tags">${recipe.tags.map(escapeHtml).join(', ')}</span>
     </li>`
